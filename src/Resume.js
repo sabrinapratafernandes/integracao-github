@@ -3,7 +3,7 @@ import {ButtonStyled} from "./Styled";
 const Resume = () => {
   return (
     <div>
-      <ButtonStyled href="/Static/curriculo-sabrina-dev.pdf" download="curriculo_sabrina_dev">Baixar Currículo</ButtonStyled>
+      <ButtonStyled href="/static/curriculo-sabrina-dev.pdf" download="curriculo_sabrina_dev">Baixar Currículo</ButtonStyled>
     </div>
   )
 }
