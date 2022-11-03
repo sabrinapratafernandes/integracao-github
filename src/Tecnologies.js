@@ -8,10 +8,10 @@ const Tecnologies = () => {
     <MoreStyled>
       <TitlesStyled>Tecnologias:</TitlesStyled>
       <AllIconsStyled>
-        <IconsImgStyled src="/static/js.png"></IconsImgStyled>
-        <IconsImgStyled src="/static/react.png"></IconsImgStyled>
-        <IconsImgStyled src="/static/html-5.png"></IconsImgStyled>
-        <IconsImgStyled src="/static/css-3.png"></IconsImgStyled>
+        <IconsImgStyled src="%PUBLIC_URL%/static/js.png"></IconsImgStyled>
+        <IconsImgStyled src="%PUBLIC_URL%/static/react.png"></IconsImgStyled>
+        <IconsImgStyled src="%PUBLIC_URL%/static/html-5.png"></IconsImgStyled>
+        <IconsImgStyled src="%PUBLIC_URL%/static/css-3.png"></IconsImgStyled>
       </AllIconsStyled>
     </MoreStyled>
   )
