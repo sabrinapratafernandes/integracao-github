@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import About from "./About";
+import Blocks from "./Blocks";
+import Footer from "./Footer";
+import Highlights from "./Highlights";
+import Knowledges from "./Knowledges";
+import Me from "./Me";
+import Projects from "./Projects";
+import Resume from "./Resume";
+
+const appStyle = {
+  maxWidth: '100vw',
+  overflowY: 'auto',
+  overflowX: 'hidden',
+  background: 'linear-gradient(90deg, rgba(68,35,101,1) 30%, rgba(108,63,177,1) 100%)',
+  padding: '2%',
+  
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={appStyle} className="app">
+      <Me/>
+      <About/>
+      <Resume/>
+      <Blocks/>
+      <Highlights/>
+      <Knowledges/>
+      <Projects/>
+      <Footer/>
     </div>
   );
 }
