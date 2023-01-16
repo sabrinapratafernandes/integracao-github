@@ -11,8 +11,9 @@ const appStyle = {
   maxWidth: '100vw',
   overflowY: 'auto',
   overflowX: 'hidden',
-  background: 'linear-gradient(90deg, rgba(68,35,101,1) 30%, rgba(108,63,177,1) 100%)',
+  background: '#dcdcdc',
   padding: '2%',
+  fontStyle: 'italic',
   
 }
 
@@ -20,9 +21,9 @@ function App() {
   return (
     <div style={appStyle} className="app">
       <Me/>
+      <Blocks/>
       <About/>
       <Resume/>
-      <Blocks/>
       <Highlights/>
       <Knowledges/>
       <Projects/>

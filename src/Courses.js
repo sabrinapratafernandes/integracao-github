@@ -5,6 +5,12 @@ import { TitlesStyled } from "./Styled";
 const Courses = () => {
   return (
     <CoursesStyled>
+      <TitlesStyled>Formação:</TitlesStyled>
+
+      <CoursesListStyled>Engenharia de Software - Uninter (Cursando)</CoursesListStyled>
+      <CoursesListStyled>Marketing - Uninter (Concluído)</CoursesListStyled>
+
+
       <TitlesStyled>Cursos:</TitlesStyled>
       <CoursesListStyled href="https://www.linkedin.com/posts/sabrinabpf_udemy-course-completion-certificate-activity-6985370892419649536-vU2U?utm_source=share&utm_medium=member_desktop">
         Git Completo: Do Básico ao Avançado - Udemy
