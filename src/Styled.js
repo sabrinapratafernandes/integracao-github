@@ -6,17 +6,19 @@ export const TitlesStyled = styled.h2`
 
 export const TextLinksStyled = styled.a`
   text-decoration: none;
-  width: 160%;
+  width: 100%;
   color: black;
   margin: 2%;
   padding: 1%;
   border-radius: 5px;
-  background: #515151;
+  background: #4C0070;
   color: white;
+  display: flex;
+  justify-content: center;
 
   @media screen and (min-width: 768px){
     margin: 0.5%;
-    width: fit-content;
+    width: 220px;
   }
 `
 
@@ -32,10 +34,10 @@ export const MeStyled = styled.div`
   margin-top: 120px;
   padding-top: 50px;
   width: 100%;
-  height: 150px;
+  height: 180px;
   font-size: 10px;
   flex-direction: column;
-  background: #b5b5b5
+  background: #38419D;
 `
 
 export const MeImgStyled = styled.img`
@@ -71,42 +73,37 @@ export const MoreAboutStyled = styled.p`
   margin-bottom: 0
 `
 
+export const ResumeStyled = styled.div`
+  display: flex;
+  justify-content: center;
+`
+
 export const ButtonStyled = styled.a`
   text-decoration: none;
   background-color: black;
-  width: auto;
+  width: 150px;
   box-shadow: 0px 2px 22px 4px rgba(0,0,0,0.6);
   border-radius: 20px;
-  font-size: 18px;
+  font-size: 16px;
   color: #fff;
   padding: 5px;
   margin: 2%;
   display: flex;
   justify-content: center;
+
+  @media screen and (min-width: 768px){
+    width: 200px;
+    font-size: 18px;
+  }
 `
 export const BlocksStyled = styled.div `
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
-  padding: 5%;
+  justify-content: space-evenly;
+  padding: 1%;
   flex-wrap: wrap
 `
-
-export const TitleHiglights = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-`
-
-export const AlignHiglights = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-` 
-
 export const MoreStyled = styled.div `
   display: flex;
   flex-direction: column;
@@ -116,6 +113,11 @@ export const MoreStyled = styled.div `
 export const AllIconsStyled = styled.div `
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: #38419D;
+  border-radius: 15px
+  
 `
 
 export const IconsImgStyled = styled.img`
@@ -123,30 +125,14 @@ export const IconsImgStyled = styled.img`
   height: 50px;
   padding: 10px;
 `
-
-export const CoursesStyled = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
- 
-`
-
-export const CoursesListStyled = styled.a`
-  text-decoration: none;
-  width: fit-content;
-  color: black;
-  font-size: 16px;
-  margin: 1%
-`
  
 export const AllProjectsStyled = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center ;
-  justify-content: flex-start ;
+  justify-content: center;
   font-size: 14;
-
- 
+  width: 100vw;
 `
 
 export const ListProjectsStyled = styled.div `
@@ -158,6 +144,7 @@ export const ListProjectsStyled = styled.div `
   box-shadow: 0px 2px 22px 4px rgba(0,0,0,0.6);
 
   @media screen and (min-width: 768px){
+    
     flex-direction: row;
     flex-wrap:wrap;
     text-align:center;
@@ -166,27 +153,14 @@ export const ListProjectsStyled = styled.div `
 
 `
 
-export const FooterStyled = styled.div`
-  width: 80%;
-
-
-
+export const FooterText = styled.p`
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
-  font-size: 14px;
-  position: absolute; 
-  margin-bottom: 0
+  justify-content: center;
+  margin: 5px;
+  margin-top: 15px
+}
  `
- 
-export const GifStyled = styled.img`
-  width: 100px;
-  height: auto;
-  padding: 2%;
-  padding-top: 5%
-  
-`
 
 
 
